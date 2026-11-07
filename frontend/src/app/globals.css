@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  background: #080d1c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #080d1c;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.auth-input {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.75rem;
+  background: #10182b;
+  padding: 0.875rem 1rem;
+  font-size: 0.875rem;
+  color: white;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.auth-input::placeholder {
+  color: #64748b;
+}
+
+.auth-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+}
